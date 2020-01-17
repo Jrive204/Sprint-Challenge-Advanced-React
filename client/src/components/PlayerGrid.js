@@ -7,7 +7,7 @@ export default function PlayerGrid(props) {
     <div data-testid='PlayerGrid' className='PlayerGrid'>
       {props.player
         .map(players => (
-          <div id={players.id} className='flip-card'>
+          <div key={players.id} className='flip-card'>
             <div className='flip-card-inner'>
               <div className='flip-card-front'>
                 <img

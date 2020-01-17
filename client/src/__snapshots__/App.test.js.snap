@@ -118,7 +118,6 @@ exports[`App component matches the snapshot 2`] = `
 >
   <div
     className="flip-card"
-    id={0}
   >
     <div
       className="flip-card-inner"
@@ -155,7 +154,6 @@ exports[`App component matches the snapshot 2`] = `
   </div>
   <div
     className="flip-card"
-    id={1}
   >
     <div
       className="flip-card-inner"
