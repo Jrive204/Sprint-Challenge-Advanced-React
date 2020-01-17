@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  max-width: 1500px;
+  margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -60,4 +61,11 @@ code {
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
+}
+
+.PlayerGrid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

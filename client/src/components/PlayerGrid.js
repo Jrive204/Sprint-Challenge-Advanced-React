@@ -1,23 +1,30 @@
 import React from "react";
+import noImage from "../img/no_image2.png";
 // import Player from './Player'
 
 export default function PlayerGrid(props) {
   return (
-    <div class='flip-card'>
-      <div class='flip-card-inner'>
-        <div class='flip-card-front'>
-          <img
-            src='img_avatar.png'
-            alt='Avatar'
-            style={{ width: "300px", height: "300px" }}
-          />
-        </div>
-        <div class='flip-card-back'>
-          <h1>John Doe</h1>
-          <p>Architect & Engineer</p>
-          <p>We love that guy</p>
-        </div>
-      </div>
+    <div className='PlayerGrid'>
+      {props.player
+        .map(players => (
+          <div id={players.id} className='flip-card'>
+            <div className='flip-card-inner'>
+              <div className='flip-card-front'>
+                <img
+                  src={noImage}
+                  alt='Avatar'
+                  style={{ width: "200px", height: "200px" }}
+                />
+              </div>
+              <div className='flip-card-back'>
+                <h1>{players.name}</h1>
+                <p>{players.country}</p>
+                <p>Searches: {players.searches}</p>
+              </div>
+            </div>
+          </div>
+        ))
+        .sort()}
     </div>
   );
 }
