@@ -31,7 +31,9 @@ export default function Header() {
             aria-label='menu'>
             <MenuIcon />
           </IconButton>
-          <Typography variant='h6' className={classes.title}></Typography>
+          <Typography variant='h6' className={classes.title}>
+            Women's World Cup Info
+          </Typography>
 
           <PurpleSwitch
             value='checkedA'
