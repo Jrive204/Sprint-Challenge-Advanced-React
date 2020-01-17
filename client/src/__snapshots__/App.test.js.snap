@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component matches the snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="makeStyles-root-1"
+  >
+    <header
+      className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation4"
+    >
+      <div
+        className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+      >
+        <button
+          aria-label="menu"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-2 MuiIconButton-colorInherit MuiIconButton-edgeStart"
+          disabled={false}
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+        </button>
+        <h6
+          className="MuiTypography-root makeStyles-title-3 MuiTypography-h6"
+        >
+          Women's World Cup Info
+        </h6>
+        <span
+          className="MuiSwitch-root"
+        >
+          <span
+            aria-disabled={false}
+            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-111 MuiSwitch-switchBase WithStyles(ForwardRef(Switch))-switchBase-96 MuiSwitch-colorSecondary PrivateSwitchBase-checked-112 Mui-checked WithStyles(ForwardRef(Switch))-checked-97"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={null}
+          >
+            <span
+              className="MuiIconButton-label"
+            >
+              <input
+                checked={true}
+                className="PrivateSwitchBase-input-114 MuiSwitch-input"
+                disabled={false}
+                onChange={[Function]}
+                type="checkbox"
+                value="checkedA"
+              />
+              <span
+                className="MuiSwitch-thumb"
+              />
+            </span>
+          </span>
+          <span
+            className="MuiSwitch-track WithStyles(ForwardRef(Switch))-track-98"
+          />
+        </span>
+      </div>
+    </header>
+  </div>
+  <h1
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    Women's World Cup players ranked by search interest from Google Trends
+  </h1>
+  <div
+    className="PlayerGrid"
+    data-testid="PlayerGrid"
+  />
+</div>
+`;
+
+exports[`App component matches the snapshot 2`] = `
+<div
+  className="PlayerGrid"
+  data-testid="PlayerGrid"
+>
+  <div
+    className="flip-card"
+  >
+    <div
+      className="flip-card-inner"
+    >
+      <div
+        className="flip-card-front"
+      >
+        <img
+          alt="Avatar"
+          src="no_image2.png"
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
+        />
+      </div>
+      <div
+        className="flip-card-back"
+      >
+        <h1>
+          Alex Morgan
+        </h1>
+        <p>
+          United States
+        </p>
+        <p>
+          Searches: 
+          100
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flip-card"
+  >
+    <div
+      className="flip-card-inner"
+    >
+      <div
+        className="flip-card-front"
+      >
+        <img
+          alt="Avatar"
+          src="no_image2.png"
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
+        />
+      </div>
+      <div
+        className="flip-card-back"
+      >
+        <h1>
+          Megan Rapinoe
+        </h1>
+        <p>
+          United States
+        </p>
+        <p>
+          Searches: 
+          99
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
