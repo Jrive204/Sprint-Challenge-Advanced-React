@@ -36,19 +36,19 @@ describe("App component", () => {
     );
   });
 
-  it("Check if header is correct", () => {
-    const wrapper = shallow(<Header />);
-    const text = wrapper.find("div").text();
-    expect(text).toEqual("Women's World Cup Info");
-  });
-  it("matches the snapshot", () => {
-    const tree = renderer.create(<App />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it("matches the snapshot", () => {
-    const tree = renderer.create(<PlayerGrid player={player} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+  // it("Check if header is correct", () => {
+  //   const wrapper = shallow(<Header />);
+  //   const text = wrapper.find("div").text();
+  //   expect(text).toEqual("Women's World Cup Info");
+  // });
+  // it("matches the snapshot", () => {
+  //   const tree = renderer.create(<App />).toJSON();
+  //   expect(tree).toMatchSnapshot();
+  // });
+  // it("matches the snapshot", () => {
+  //   const tree = renderer.create(<PlayerGrid player={player} />).toJSON();
+  //   expect(tree).toMatchSnapshot();
+  // });
 });
 
 // describe("Addition", () => {
