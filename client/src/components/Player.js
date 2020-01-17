@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export default function Player() {
-    return (
-        <div>
-            <p>Player</p>
-        </div>
-    )
+export default function Player(props) {
+  return (
+    <div>
+      <p>Player {console.log(props, "player")}</p>
+    </div>
+  );
 }

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
-import Player from "./components/Player";
+import Header from "./components/Header";
+import PlayerGrid from "./components/PlayerGrid";
 
 export default class App extends Component {
   state = {
@@ -21,10 +22,11 @@ export default class App extends Component {
   render() {
     return (
       <div className='App'>
+        <Header />
         <h1>
           Women's World Cup players ranked by search interest from Google Trends{" "}
         </h1>
-        <Player />
+        <PlayerGrid player={this.state.player} />
       </div>
     );
   }
