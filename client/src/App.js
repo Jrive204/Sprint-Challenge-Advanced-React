@@ -23,8 +23,8 @@ export default class App extends Component {
     return (
       <div className='App'>
         <Header />
-        <h1>
-          Women's World Cup players ranked by search interest from Google Trends{" "}
+        <h1 style={{ textAlign: "center" }}>
+          Women's World Cup players ranked by search interest from Google Trends
         </h1>
         <PlayerGrid player={this.state.player} />
       </div>

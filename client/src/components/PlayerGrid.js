@@ -4,7 +4,7 @@ import noImage from "../img/no_image2.png";
 
 export default function PlayerGrid(props) {
   return (
-    <div className='PlayerGrid'>
+    <div data-testid='PlayerGrid' className='PlayerGrid'>
       {props.player
         .map(players => (
           <div id={players.id} className='flip-card'>

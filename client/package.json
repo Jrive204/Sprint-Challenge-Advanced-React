@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.8.3",
     "@material-ui/icons": "^4.5.1",
+    "ansi-regex": "^5.0.0",
     "axios": "^0.19.1",
     "node-sass": "^4.13.1",
     "react": "^16.9.0",
@@ -32,5 +33,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^24.9.0"
   }
 }
