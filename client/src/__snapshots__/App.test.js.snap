@@ -108,6 +108,9 @@ exports[`App component matches the snapshot 1`] = `
     className="PlayerGrid"
     data-testid="PlayerGrid"
   />
+  <div
+    className="plotgraph"
+  />
 </div>
 `;
 

@@ -7,6 +7,7 @@
     "@material-ui/icons": "^4.5.1",
     "ansi-regex": "^5.0.0",
     "axios": "^0.19.1",
+    "jest-canvas-mock": "^2.2.0",
     "node-sass": "^4.13.1",
     "plotly.js": "^1.52.1",
     "react": "^16.9.0",

@@ -10,6 +10,10 @@ import Adapter from "enzyme-adapter-react-16";
 import Player from "./components/Player";
 import Header from "./components/Header";
 
+window.DOMParser = function() {};
+
+window.URL.createObjectURL = function() {};
+
 configure({ adapter: new Adapter() });
 
 const player = [
@@ -36,19 +40,24 @@ describe("App component", () => {
     );
   });
 
-  // it("Check if header is correct", () => {
-  //   const wrapper = shallow(<Header />);
-  //   const text = wrapper.find("div").text();
-  //   expect(text).toEqual("Women's World Cup Info");
-  // });
-  // it("matches the snapshot", () => {
-  //   const tree = renderer.create(<App />).toJSON();
-  //   expect(tree).toMatchSnapshot();
-  // });
-  // it("matches the snapshot", () => {
-  //   const tree = renderer.create(<PlayerGrid player={player} />).toJSON();
-  //   expect(tree).toMatchSnapshot();
-  // });
+  it("Check if header is correct", () => {
+    const wrapper = shallow(<Header />);
+    const text = wrapper.find("div").text();
+    expect(text).toEqual("Women's World Cup Info");
+  });
+  test("renders plotly", () => {
+    const wrapper = shallow(<App />);
+    window.location.reload = jest.fn();
+    window.location.reload();
+
+    expect(wrapper).toMatchSnapshot();
+    expect(wrapper.state().data).toEqual(null);
+  });
+
+  it("matches the PlayerGrid snapshot", () => {
+    const tree = renderer.create(<PlayerGrid player={player} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 // describe("Addition", () => {

@@ -1,0 +1,71 @@
+[33mcommit 6523ac7bb9db30c4839360fe80a276db4a893ca0[m[33m ([m[1;36mHEAD -> [m[1;32mJose-2[m[33m)[m
+Author: Jose <Jrivera6869@yahoo.com>
+Date:   Fri Jan 17 17:24:02 2020 -0500
+
+    broken
+
+[33mcommit ca001eac4165b119cb411d57ca981383e7e69d4d[m[33m ([m[1;31morigin/Jose-Rivera[m[33m, [m[1;32mJose-Rivera[m[33m)[m
+Author: Jose <Jrivera6869@yahoo.com>
+Date:   Fri Jan 17 16:43:15 2020 -0500
+
+    answers
+
+[33mcommit 1ee581056355434c002706318db0af23ddac6466[m
+Author: Jose <Jrivera6869@yahoo.com>
+Date:   Fri Jan 17 16:29:05 2020 -0500
+
+    added plot
+
+[33mcommit 3102ca5b1ab21bf13a13737faa94e27aad6b6d98[m
+Author: Jose <Jrivera6869@yahoo.com>
+Date:   Fri Jan 17 15:09:59 2020 -0500
+
+    new test stuff
+
+[33mcommit 39eba1e1ff4ed860c988a45be2a961676b94e9b4[m
+Author: Jose <Jrivera6869@yahoo.com>
+Date:   Fri Jan 17 14:00:45 2020 -0500
+
+    added tests done
+
+[33mcommit ac583099b94f4d1f71f3a872d5e09f84e09de84b[m
+Author: Jose <Jrivera6869@yahoo.com>
+Date:   Fri Jan 17 12:50:21 2020 -0500
+
+    finished mvp
+
+[33mcommit bfda881b1d1ed528772bb6341c0b6e71a336bce2[m
+Author: Jose <Jrivera6869@yahoo.com>
+Date:   Fri Jan 17 12:29:12 2020 -0500
+
+    finished custom hooks
+
+[33mcommit d8c56849ea5977714085d5b41facc00f84f5e5c4[m
+Author: Jose <Jrivera6869@yahoo.com>
+Date:   Fri Jan 17 11:32:39 2020 -0500
+
+    finished questions
+
+[33mcommit 4c5cea31bc6f9328a91f8dd3246d3b0331570c19[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Dustin Myers <dustinmyers@users.noreply.github.com>
+Date:   Fri Oct 11 13:52:39 2019 -0600
+
+    Update README.md
+
+[33mcommit 0828082f31701dbe28fc870f93f1d8694a52996d[m
+Author: Dustin Myers <dustinmyers@users.noreply.github.com>
+Date:   Fri Sep 6 08:37:27 2019 -0600
+
+    Update README.md
+
+[33mcommit 83633664ec0aa0212aa75ff84e4c7a219d33d1de[m
+Author: Dustin Myers <dustint314@gmail.com>
+Date:   Thu Sep 5 23:01:35 2019 -0600
+
+    Remove nested git repo
+
+[33mcommit 1b7692b9151ccb4bb507e321ca0dde2dc7f0c2c8[m
+Author: Dustin Myers <dustint314@gmail.com>
+Date:   Thu Sep 5 22:57:39 2019 -0600
+
+    Add project

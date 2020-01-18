@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import PlayerGrid from "./components/PlayerGrid";
 import Plot from "react-plotly.js";
 
+
+
 export default class App extends Component {
   state = {
     player: []
